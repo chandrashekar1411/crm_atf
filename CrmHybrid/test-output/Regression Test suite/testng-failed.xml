@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test suite]">
+  <listeners>
+    <listener class-name="com.crm.utils.BaseListener"/>
+  </listeners>
+  <test thread-count="5" name="Mycontact Accounts test(failed)">
+    <classes>
+      <class name="com.crm.testscripts.Admintest">
+        <methods>
+          <include name="creatingLeadWithDetails"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.crm.testscripts.Admintest -->
+    </classes>
+  </test> <!-- Mycontact Accounts test(failed) -->
+</suite> <!-- Failed suite [Regression Test suite] -->

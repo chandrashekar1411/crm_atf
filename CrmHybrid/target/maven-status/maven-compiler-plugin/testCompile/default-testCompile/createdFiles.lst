@@ -1,0 +1,5 @@
+com\crm\testscripts\Admintest2.class
+com\crm\testscripts\sampledata.class
+com\crm\testscripts\Admintest.class
+com\crm\validators\CrmValidator.class
+com\crm\services\Crmservice.class

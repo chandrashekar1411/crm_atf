@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40011" started-at="2018-04-04T08:52:26Z" finished-at="2018-04-04T08:53:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40011" started-at="2018-04-04T08:52:26Z" finished-at="2018-04-04T08:53:06Z">
+      <class name="com.crm.testscripts.Admintest2">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.crm.testscripts.Admintest2@701fc37a]" name="init" is-config="true" duration-ms="17242" started-at="2018-04-04T08:52:26Z" finished-at="2018-04-04T08:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="creatingLeadWithCsvFile()[pri:0, instance:com.crm.testscripts.Admintest2@701fc37a]" name="creatingLeadWithCsvFile" duration-ms="22654" started-at="2018-04-04T08:52:43Z" description="creatinglead using csvfile" finished-at="2018-04-04T08:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingLeadWithCsvFile -->
+      </class> <!-- com.crm.testscripts.Admintest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
